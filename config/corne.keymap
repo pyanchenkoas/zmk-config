@@ -77,10 +77,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp DELETE  &kp N1        &kp N2  &kp N3    &kp N4  &kp N5       &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &kp BSPC
-&trans      &kp NUMBER_6  &kp N7  &kp N8    &kp N9  &kp N0       &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
-&trans      &trans        &trans  &trans    &trans  &trans       &trans    &trans     &trans     &trans     &trans  &trans
-                                  &kp LGUI  &trans  &kp SPACE    &kp RET   &trans     &kp RALT
+&kp DELETE  &kp N1        &kp N2  &kp N3  &kp N4  &kp N5    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp PRINTSCREEN  &kp BSPC
+&kp CAPS    &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp INSERT       &kp RIGHT_SHIFT
+&kp F1      &kp F2        &kp F3  &kp F4  &kp F5  &kp F6    &kp F7    &kp F8     &kp F9     &kp F10    &kp F11          &kp F12
+                                  &trans  &trans  &trans    &trans    &trans     &trans
             >;
         };
 
@@ -94,10 +94,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp EXCL   &kp AT    &kp HASH  &kp DLLR        &kp PRCNT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp PLUS          &none     &none
-&none    &kp CARET  &kp AMPS  &kp STAR  &trans          &trans       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS       &kp EQUAL         &kp BSLH  &none
-&none    &trans     &trans    &trans    &trans          &trans       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN   &kp GREATER_THAN  &kp PIPE  &none
-                              &kp LGUI  &studio_unlock  &kp SPACE    &kp RET               &studio_unlock         &kp RALT
+&trans  &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp PLUS          &trans    &trans
+&trans  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS       &kp EQUAL         &kp BSLH  &trans
+&trans  &trans     &trans    &trans    &trans    &trans       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN   &kp GREATER_THAN  &kp PIPE  &trans
+                             &trans    &trans    &trans       &trans                &trans                 &trans
             >;
         };
 
