@@ -63,7 +63,7 @@
 &kp MINUS  &kp Q           &kp W          &kp E           &kp R         &kp T          &kp Y          &kp U          &kp I              &kp O          &kp P              &kp LBKT
 &kp EQUAL  &hrml LSHIFT A  &hrml LCTRL S  &hrml LALT D    &hrml LWIN F  &kp G          &kp H          &hrmr RWIN J   &hrmr RALT K       &hrmr RCTRL L  &hrmr RSHIFT SEMI  &kp SQT
 &kp GRAVE  &kp Z           &kp X          &kp C           &kp V         &kp B          &kp N          &kp M          &kp COMMA          &kp DOT        &kp FSLH           &kp RBKT
-                                          &lthp 3 DELETE  &lthp 1 TAB   &lthp 1 ESC    &lthp 1 ENTER  &lthp 2 SPACE  &lthp 3 BACKSPACE
+                                          &lthp 3 DELETE  &lthp 2 TAB   &lthp 1 ESC    &lthp 1 ENTER  &lthp 2 SPACE  &lthp 3 BACKSPACE
             >;
         };
 

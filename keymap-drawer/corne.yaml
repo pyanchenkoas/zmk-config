@@ -1,33 +1,153 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
-    Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, '$$mdi:apple-keyboard-option$$']
+  BAS:
+  - '-'
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - '='
+  - {t: A, h: LSHIFT}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: LWIN}
+  - G
+  - H
+  - {t: J, h: RWIN}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ;, h: RSHIFT}
+  - ''''
+  - '`'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ']'
+  - {t: DELETE, h: '3'}
+  - {t: ↹, h: RAI}
+  - {t: Esc, h: LOW}
+  - {t: ENTER, h: LOW}
+  - {t: ␣, h: RAI}
+  - {t: BACKSPACE, h: '3'}
   LOW:
-  - ↹
+  - DELETE
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
+  - Home
+  - Page Down
+  - Page Up
+  - End
+  - PRINTSCREEN
+  - $$mdi:backspace-outline$$
+  - Caps Lock
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - $$mdi:backspace-outline$$
+  - ←
+  - ↓
+  - ↑
+  - →
+  - INSERT
+  - RIGHT SHIFT
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  RAI:
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - (
+  - )
+  - _
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ^
+  - AMPS
+  - '*'
+  - (
+  - )
+  - '['
+  - ']'
+  - '-'
+  - '='
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '{'
+  - '}'
+  - <
+  - '>'
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT CLR
   - BT 1
   - BT 2
   - BT 3
   - BT 4
   - BT 5
-  - ←
-  - ↓
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -39,52 +159,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-command$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ␣
-  - ⏎
-  - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
-  RAI:
-  - ↹
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
-  - (
-  - )
-  - $$mdi:backspace-outline$$
-  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
-  - '`'
-  - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
-  - $$mdi:apple-keyboard-command$$
-  - '&studio_unlock'
-  - ␣
-  - ⏎
-  - {t: '&studio_unlock', type: held}
-  - $$mdi:apple-keyboard-option$$
