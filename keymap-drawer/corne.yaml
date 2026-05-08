@@ -38,10 +38,10 @@ layers:
   - /
   - ']'
   - {t: DELETE, h: '3'}
-  - {t: ↹, h: RAI}
-  - {t: Esc, h: LOW}
-  - {t: ENTER, h: LOW}
-  - {t: ␣, h: RAI}
+  - {t: ↹, h: LOW}
+  - {t: Esc, h: RAI}
+  - {t: ENTER, h: RAI}
+  - {t: ␣, h: LOW}
   - {t: BACKSPACE, h: '3'}
   LOW:
   - DELETE
@@ -50,82 +50,82 @@ layers:
   - '3'
   - '4'
   - '5'
-  - Home
-  - Page Down
-  - Page Up
-  - End
-  - PRINTSCREEN
-  - $$mdi:backspace-outline$$
-  - Caps Lock
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - ←
-  - ↓
-  - ↑
-  - →
-  - INSERT
+  - $$mdi:backspace-outline$$
+  - Caps Lock
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - AMPERSAND
+  - '*'
+  - (
+  - )
   - RIGHT SHIFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '{'
+  - '}'
+  - <
+  - '>'
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  RAI:
   - F1
   - F2
   - F3
   - F4
   - F5
   - F6
+  - Home
+  - PAGE DOWN
+  - PAGE UP
+  - End
+  - PRINTSCREEN
+  - ''
   - F7
   - F8
   - F9
   - F10
   - F11
   - F12
+  - ←
+  - ↓
+  - ↑
+  - →
+  - INSERT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ENTER
+  - ENTER
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  RAI:
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - (
-  - )
-  - _
-  - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ^
-  - AMPS
-  - '*'
-  - (
-  - )
-  - '['
-  - ']'
-  - '-'
-  - '='
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '{'
-  - '}'
-  - <
-  - '>'
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
