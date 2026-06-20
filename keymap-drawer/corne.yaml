@@ -80,12 +80,12 @@ layers:
   - '>'
   - '['
   - ']'
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHIFT
+  - {t: '$$mdi:apple-keyboard-control$$', type: held}
+  - LEFT ALT
+  - RIGHT ALT
+  - $$mdi:apple-keyboard-control$$
+  - RSHIFT
   RAI:
   - F1
   - F2
@@ -123,12 +123,12 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHIFT
+  - $$mdi:apple-keyboard-control$$
+  - {t: LEFT ALT, type: held}
+  - RIGHT ALT
+  - $$mdi:apple-keyboard-control$$
+  - RSHIFT
   '3':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
